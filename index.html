@@ -57,13 +57,50 @@
 
     /* 👉 Task 1 - [HINT] only the flex container needs to be manipulated */
 
+    #flexContainer1 {
+      display: flex;
+    }
+
     /* 👉 Task 2 - [HINT] the flex container needs to change direction */
+
+    #flexContainer2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
 
     /* 👉 Task 3 - [HINT] the flex direction can be reversed */
 
+    #flexContainer3 {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+
     /* 👉 Task 4 - [HINT] the flex items need a new order */
 
+    #flexContainer4 {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-around;
+      flex-direction: row-reverse;
+    }
+
+    #flexContainer4 :nth-child(1) {order: 2;}
+    #flexContainer4 :nth-child(2) {order: 1;}
+    #flexContainer4 :nth-child(3) {order: 3;}
+
     /* 👉 Task 5 - [HINT] research align-self */
+
+    #flexContainer5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #flexContainer5 :nth-child(2) {align-self: center;}
 
     /* 👉 Task 6 - [HINT] flex items can be flex containers */
 
